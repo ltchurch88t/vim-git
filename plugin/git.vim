@@ -18,5 +18,5 @@ endfunction
 
 command Push :call Send()
 command Pull :call Pull()
-command Clone :call Clone(<f-args>)
+command Clone :call Clone()
 command Diff :call Diff()
