@@ -16,7 +16,7 @@ function! Diff()
   :!git diff
 endfunction
 
-command Send :call Send()
+command Push :call Send()
 command Pull :call Pull()
 command Clone :call Clone(<f-args>)
 command Diff :call Diff()
