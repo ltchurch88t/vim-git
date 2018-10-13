@@ -16,7 +16,7 @@ function! Diff()
   :!git diff
 endfunction
 
-command Send :call Send
-command Pull :call Pull
-command Clone :call Clone
-command Diff :call Diff
+command Send :call Send()
+command Pull :call Pull()
+command Clone :call Clone()
+command Diff :call Diff()
