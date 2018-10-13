@@ -9,7 +9,7 @@ function! Pull()
 endfunction
 
 function! Clone(url)
-  :!git clone a:url<cr>
+  :!git clone a:url
 endfunction
 
 function! Diff()
@@ -18,5 +18,5 @@ endfunction
 
 command Send :call Send()
 command Pull :call Pull()
-command Clone :call Clone()
+command Clone :call Clone(<f-args>)
 command Diff :call Diff()
